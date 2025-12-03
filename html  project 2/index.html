@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1 class="heading-1">E-Grocery Super Market</h1>
+            <p class="heading-2">Whatever the occasion, we've got you covered.</p>
+            <input style="border-radius: 10px;padding: 5px;" type="text" placeholder="Search for products...">
+            <button style="background-color: black;color: white;width: 60px;border-radius: 20px;padding: 5px;">Search</button>  
+            <img src="./Assets/blinkit-logo.png" alt="logo" class="cart-icon">
+        </nav>
+    </header>    
+    <main>
+        <p class="p-1">14 Products found</p>
+        <select class="sort-dropdown">
+            <option value="default">Sort by Default</option>
+            <option value="price-low-high">Price: Low to High</option>
+            <option value="price-high-low">Price: High to Low</option>
+            <option value="popularity">Popularity</option>
+        </select>
+        <select class="dropdown">
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60">60</option>
+            <option value="70">70</option>
+            <option value="80">80</option>
+        </select>
+    </main>
+    <main class="product-list">
+        <div class="container">
+            <div class="product-card">
+                <img src="./Assets/product-1.png" alt="product-1" class="product-image">
+                <p class="description">Snacks</p>
+                <p class="product-name">balaji chataka pataka</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">90g</p>
+                <p class="product-price">₹10</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-2.png" alt="product-2" class="product-image">
+                <p class="description">Bakrey & Biscuit</p>
+                <p class="product-name">Mom's Magic Cookies</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">90g</p>
+                <p class="product-price">₹10</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-3.png" alt="product-3" class="product-image">
+                <p class="description">Chocolate</p>
+                <p class="product-name">Dairey Milk Silk</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">900g</p>
+                <p class="product-price">₹100</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-4.png" alt="product-4" class="product-image">
+                <p class="description">Snacks</p>
+                <p class="product-name">Lay's Chips</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">90g</p>
+                <p class="product-price">₹20</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-5.png" alt="product-5" class="product-image">
+                <p class="description">Instant Food</p>
+                <p class="product-name">ACT-II Popcorn</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">50g</p>
+                <p class="product-price">₹15</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-6.png" alt="product-6" class="product-image">
+                <p class="description">Snacks</p>
+                <p class="product-name">Haldiram Mixture</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">200g</p>
+                <p class="product-price">₹90</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-7.png" alt="product-7" class="product-image">
+                <p class="description">Snacks</p>
+                <p class="product-name">Haldiram Moong Dal</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">90g</p>
+                <p class="product-price">₹80</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-8.png" alt="product-8" class="product-image">
+                <p class="description">Dairey</p>
+                <p class="product-name-2">Amul Mozzarella Cheese</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">200g</p>
+                <p class="product-price">₹120</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-9.png" alt="product-9" class="product-image">
+                <p class="description">Dairey</p>
+                <p class="product-name">Amul Gold Milk</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">500ml</p>
+                <p class="product-price">₹36</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-10.png" alt="product-10" class="product-image">
+                <p class="description">Daiery</p>
+                <p class="product-name">Amul Taaza Milk</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">500ml</p>
+                <p class="product-price">₹29</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-11.png" alt="product-11" class="product-image">
+                <p class="description">Chocolate</p>
+                <p class="product-name">Amul 99%Cacao</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">125g</p>
+                <p class="product-price">₹200</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-12.png" alt="product-12" class="product-image">
+                <p class="description">Chocolate</p>
+                <p class="product-name">Amul Milk Chocolate</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">40g</p>
+                <p class="product-price">₹50</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-13.png" alt="product-13" class="product-image">
+                <p class="description">Chocolate</p>
+                <p class="product-name">Amul Chocominis</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">250g</p>
+                <p class="product-price">₹130</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./Assets/product-14.png" alt="product-14" class="product-image">
+                <p class="description">Chocolate</p>
+                <p class="product-name">Dairey Milk Silk</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p class="product-weight">250g</p>
+                <p class="product-price">₹318</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </main>     
+    <footer>
+        <p class="footer-text">E-Grocery Super Market.</p>
+    </footer>
+</body>
+</html>
