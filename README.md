@@ -6,12 +6,6 @@ A simple responsive frontend for an e-grocery product listing page built with HT
 
 ---
 
-## Demo
-
-> Insert a screenshot or link to a live demo here (e.g., GitHub Pages).
-
----
-
 ## Features
 
 * Responsive product grid using flexbox.
